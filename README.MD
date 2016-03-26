@@ -9,4 +9,4 @@
 <br>
 <br>
 <br>效果如下图
-![image](https://github.com/lin18/TagsGroup/blob/master/image/Screenshot_2016-03-26-17-29-43.png?raw=true)
+<br>![image](https://github.com/lin18/TagsGroup/blob/master/image/Screenshot_2016-03-26-17-29-43.png?raw=true)
