@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="tagsGroupStyle" format="reference" />
+    <declare-styleable name="TagsGroup">
+        <!-- Whether the tag group is in append mode. -->
+        <attr name="tg_isAppendMode" format="boolean" />
+        <!-- If the tag group is in append mode, what the hint of input tag. -->
+        <attr name="tg_inputHint" format="string" />
+
+        <!-- The tag view outline border color. -->
+        <attr name="tg_borderColor" format="color" />
+        <!-- The tag view text color. -->
+        <attr name="tg_textColor" format="color" />
+        <!-- The tag view background color. -->
+        <attr name="tg_backgroundColor" format="color" />
+
+        <!-- The dash outline border color, when in append mode. -->
+        <attr name="tg_dashBorderColor" format="color" />
+        <!-- The input tag hint text color, when in append mode. -->
+        <attr name="tg_inputHintColor" format="color" />
+        <!-- The input tag type text color, when in append mode. -->
+        <attr name="tg_inputTextColor" format="color" />
+
+        <!-- The checked tag view outline border color. -->
+        <attr name="tg_checkedBorderColor" format="color" />
+        <!-- The checked text color. -->
+        <attr name="tg_checkedTextColor" format="color" />
+        <!-- The checked marker color. -->
+        <attr name="tg_checkedMarkerColor" format="color" />
+        <!-- The checked tag view background color. -->
+        <attr name="tg_checkedBackgroundColor" format="color" />
+
+        <attr name="tg_selectedBorderColor" format="color" />
+        <attr name="tg_selectedTextColor" format="color" />
+        <attr name="tg_selectedBackgroundColor" format="color" />
+
+        <!-- The tag view background color, when the tag view is being pressed. -->
+        <attr name="tg_pressedBackgroundColor" format="color" />
+
+        <!-- The tag view outline border stroke width. -->
+        <attr name="tg_borderStrokeWidth" format="dimension" />
+        <!-- The tag view text size. -->
+        <attr name="tg_textSize" format="dimension" />
+
+        <attr name="tg_horizontalSpacing" format="dimension" />
+        <attr name="tg_verticalSpacing" format="dimension" />
+        <attr name="tg_horizontalPadding" format="dimension" />
+        <attr name="tg_verticalPadding" format="dimension" />
+
+        <attr name="tg_cornerRadius" format="dimension|reference" />
+        <attr name="tg_tagMaxLength" format="integer" />
+        <attr name="tg_limitHint" format="string|reference" />
+        <attr name="tg_maxSize" format="integer" />
+    </declare-styleable>
+
+</resources>

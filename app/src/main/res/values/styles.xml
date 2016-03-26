@@ -1,0 +1,45 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="TagsGroup">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="tg_isAppendMode">false</item>
+        <item name="tg_inputHint">@string/add_tag</item>
+        <item name="tg_borderColor">#EBEBEB</item>
+        <item name="tg_textColor">#666666</item>
+        <item name="tg_backgroundColor">@android:color/white</item>
+        <item name="tg_dashBorderColor">#EBEBEB</item>
+        <item name="tg_inputHintColor">#80000000</item>
+        <item name="tg_inputTextColor">#DE000000</item>
+        <item name="tg_checkedBorderColor">#49C120</item>
+        <item name="tg_checkedTextColor">@android:color/white</item>
+        <item name="tg_checkedMarkerColor">@android:color/white</item>
+        <item name="tg_checkedBackgroundColor">#49C120</item>
+        <item name="tg_selectedBorderColor">#49C120</item>
+        <item name="tg_selectedTextColor">#49C120</item>
+        <item name="tg_selectedBackgroundColor">@android:color/white</item>
+        <item name="tg_pressedBackgroundColor">#EDEDED</item>
+        <item name="tg_borderStrokeWidth">0.5dp</item>
+        <item name="tg_textSize">14sp</item>
+        <item name="tg_horizontalSpacing">10dp</item>
+        <item name="tg_verticalSpacing">14dp</item>
+        <item name="tg_horizontalPadding">8dp</item>
+        <item name="tg_verticalPadding">4dp</item>
+        <item name="tg_maxSize">5</item>
+        <item name="tg_limitHint">@string/add_tag_limit_hint</item>
+    </style>
+
+    <style name="tag_layout_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:paddingTop">0dp</item>
+    </style>
+
+</resources>
